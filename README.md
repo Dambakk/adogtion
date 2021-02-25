@@ -1,4 +1,4 @@
-# Put title of your app here
+# Adogtion - Dog Adoption
 
 ![Workflow result](https://github.com/dambakk/adogtion/workflows/Check/badge.svg)
 
