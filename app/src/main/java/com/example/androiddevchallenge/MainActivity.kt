@@ -66,7 +66,6 @@ fun MyApp() {
         }
         val scrollState = rememberLazyListState()
 
-
         Crossfade(targetState = currentScreen.value) { screen ->
             when (screen) {
                 Screen.DogList -> MainListScreen(
@@ -81,7 +80,6 @@ fun MyApp() {
                 }
             }
         }
-
     }
 }
 
