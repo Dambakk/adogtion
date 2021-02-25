@@ -76,6 +76,7 @@ dependencies {
 
     implementation "dev.chrisbanes.accompanist:accompanist-coil:0.6.0"
     implementation 'org.jetbrains.kotlin:kotlin-reflect:1.4.30'
+    implementation 'androidx.palette:palette-ktx:1.0.0'
 
     testImplementation 'junit:junit:4.13.2'
 

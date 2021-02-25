@@ -1,5 +1,6 @@
 package com.example.androiddevchallenge.components
 
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.Card
 import androidx.compose.material.MaterialTheme
@@ -26,10 +27,11 @@ fun DogPreview() {
 }
 
 @Composable
-fun DogCard(dog: DogModel, modifier: Modifier = Modifier) {
+fun DogCard(dog: DogModel, modifier: Modifier = Modifier, onDogClicked: (DogModel) -> Unit = {}) {
     Card(
         modifier = Modifier
             .padding(16.dp)
+            .clickable { onDogClicked(dog) }
             .then(modifier)
     ) {
         Column(
